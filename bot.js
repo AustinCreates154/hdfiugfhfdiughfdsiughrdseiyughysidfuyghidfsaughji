@@ -17,6 +17,7 @@ require('fs').readdir("./commands/", (err, files) => {
 
 bot.on('ready', () => {
   bot.user.setActivity('HentaiGod being touched as a child', {type: "WATCHING"})
+}
 
 
 bot.login(process.env.TOKEN)
