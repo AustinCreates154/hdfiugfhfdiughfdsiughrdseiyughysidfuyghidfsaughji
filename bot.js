@@ -3,4 +3,4 @@ cont bot = new Discord.Client();
 
 
 
-bot.login('TOKEN HERE')
+bot.login(process.env.TOKEN)
